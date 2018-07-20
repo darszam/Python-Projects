@@ -69,3 +69,29 @@ def square(n):
 print(square(5))
 print()
 help(square)
+# Complex numbers
+print()
+print("Complex numbers")
+c = 1.23 + 4.56j
+print(c)
+print("Real part of number", c.real)
+print("Imaginary part of number", c.imag)
+print(c.conjugate())
+print(c*2)
+print(c ** 2) # power operator
+d = 1 + 2.34j
+print(c-d)
+print()
+# Fraction and Decimal
+print('Fraction and Decimal numbers')
+from fractions import Fraction
+frac = Fraction(10,6)
+print(frac)
+print(frac.denominator)
+print(frac.numerator)
+
+from decimal import Decimal as Dec
+decim = Dec(3.14) # argument as float
+print(decim) 
+decim = Dec("3.14") # argument as string
+print(decim)
