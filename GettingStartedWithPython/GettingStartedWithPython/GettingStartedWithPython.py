@@ -37,3 +37,35 @@ def callfunctionsquared(f,n):
     return f(f(n))
 print()
 print(callfunctionsquared(f,2))
+
+# Classes
+class Bike:
+    def __init__(self, colour, frame_material):
+        self.colour = colour
+        self.frame_material = frame_material
+    
+    def brake(self):
+        print("Braking!")
+# Instances
+green_bike = Bike("Green", "Steel")
+yellow_bike = Bike('Yellow', 'Carbon fiber')
+
+green_bike.brake()
+
+# Easter egg
+import this
+print()
+# Documentation
+def square(n):
+    """Return the squared number.
+
+    >>> square(2)
+    4
+    >>> square(4)
+    16
+    """
+    return n*n
+
+print(square(5))
+print()
+help(square)
