@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>68571497-a6cb-4844-a991-7a9e6666aa08</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GettingStartedWithPython.py</StartupFile>
+    <StartupFile>BooleansAndConditionals.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BooleansAndConditionals.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GettingStartedWithPython.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
