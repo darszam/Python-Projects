@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>68571497-a6cb-4844-a991-7a9e6666aa08</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BooleansAndConditionals.py</StartupFile>
+    <StartupFile>LoopsAndLists.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GettingStartedWithPython.py" />
+    <Compile Include="LoopsAndLists.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
