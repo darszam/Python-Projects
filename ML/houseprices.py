@@ -40,3 +40,32 @@ my_model.fit(train_X, train_y)
 
 val_predictions = my_model.predict(val_X)
 print(mean_absolute_error(val_y, val_predictions))
+
+def get_mae(max_leaf_nodes, predictors_train, predictors_val, targ_train, targ_val):
+    model = DecisionTreeRegressor(max_leaf_nodes=max_leaf_nodes, random_state=0)
+    model.fit(predictors_train, targ_train)
+    preds_val = model.predict(predictors_val)
+    mae = mean_absolute_error(targ_val, preds_val)
+    return(mae)
+
+for max_leaf_nodes in [5, 50, 500, 5000]:
+    my_mae = get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y)
+    print("Max leaf nodes: %d  \t\t Mean Absolute Error:  %d" %(max_leaf_nodes, my_mae))
+
+print()
+# Random Forest
+from sklearn.ensemble import RandomForestRegressor
+
+forest_model = RandomForestRegressor()
+forest_model.fit(train_X, train_y)
+iowa_preds = forest_model.predict(val_X)
+print(mean_absolute_error(val_y,iowa_preds))
+
+# Predicting price houses from test csv
+test = pd.read_csv('test.csv')
+test_X = test[predictors]
+predicted_prices = forest_model.predict(test_X)
+print(predicted_prices)
+print()
+submission = pd.DataFrame({'Id': test.Id, 'SalePrice': predicted_prices})
+submission.to_csv('submission.csv', index=False)
