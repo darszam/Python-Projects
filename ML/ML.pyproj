@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9a62e139-a38c-4c5d-a9ce-bf3ff568bba7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>houseprices.py</StartupFile>
+    <StartupFile>SecondLevelOfMLCourse.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,6 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="houseprices.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLevelOfMLCourse.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
