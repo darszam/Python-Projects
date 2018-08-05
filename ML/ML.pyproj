@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9a62e139-a38c-4c5d-a9ce-bf3ff568bba7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>SecondLevelOfMLCourse.py</StartupFile>
+    <StartupFile>categoricalData.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,6 +23,9 @@
     <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="categoricalData.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="houseprices.py">
       <SubType>Code</SubType>
     </Compile>
