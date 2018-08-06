@@ -5,13 +5,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9a62e139-a38c-4c5d-a9ce-bf3ff568bba7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>categoricalData.py</StartupFile>
-    <SearchPath />
+    <StartupFile>LearnXGBoost.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -27,6 +29,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="houseprices.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LearnXGBoost.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SecondLevelOfMLCourse.py">
