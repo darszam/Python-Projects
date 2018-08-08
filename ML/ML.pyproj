@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9a62e139-a38c-4c5d-a9ce-bf3ff568bba7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>LearningPartialDependancePlots.py</StartupFile>
+    <StartupFile>LearningPipelines.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LearningPartialDependancePlots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LearningPipelines.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LearnXGBoost.py">
