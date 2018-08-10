@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{180b7939-e3b7-4902-80b8-4b47b366b795}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>TensAndKerTest.py</StartupFile>
+    <StartupFile>RecognizingDogs.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,9 +23,15 @@
     <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="decode_predictions.py" />
     <Compile Include="exercise_1.py" />
-    <Compile Include="exercise_2.py" />
+    <Compile Include="Helper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LearningDeepLearningImages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RecognizingDogs.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TensAndKerTest.py">
@@ -34,6 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dl\" />
+    <Folder Include="train\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="doge.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
