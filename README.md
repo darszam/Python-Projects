@@ -37,4 +37,8 @@ taxi trip duration in New York City. I was using pipeline with Imputer and Gradi
 Learning deep learning with Kaggle's resources. Focus mostly on picture recognition and convolutions.
 Classifying dogs from picture to their breed.
 
-<img src="/DL/shortVersionOfDogsClassOutput.png" alt="Recognizing breed of this malamute"/>
+<img src="/DL/outputpictures/shortVersionOfDogsClassOutput.png" alt="Recognizing breed of this malamute"/>
+
+### Bank Account Manager
+Managing credits and debits from couple accounts in ATM style.
+Purpose: Using OOP Python
