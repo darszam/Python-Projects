@@ -37,4 +37,4 @@ taxi trip duration in New York City. I was using pipeline with Imputer and Gradi
 Learning deep learning with Kaggle's resources. Focus mostly on picture recognition and convolutions.
 Classifying dogs from picture to their breed.
 
-![Recognizing breed of this malamute](../shortVersionOfDogsClassOutput.png)
+<img src="/PythonProjects/DL/shortVersionOfDogsClassOutput.png" alt="Recognizing breed of this malamute"/>
