@@ -15,6 +15,7 @@ web development and machine learning & deep learning
     + [ML](#machine-learning)
     + [TaxiTrip](#taxi-trip)
     + [DL](#deep-learning)
+    + [OOP](#bank-account-manager)
 
 ## Projects
 ### Getting Started with Python
@@ -41,4 +42,6 @@ Classifying dogs from picture to their breed.
 
 ### Bank Account Manager
 Managing credits and debits from couple accounts in ATM style.
+There are 3 types of accounts: Checking, Saving and Business. They are all using general class Account.
+User can check balance of his account, deposit money and withdraw it
 Purpose: Using OOP Python
