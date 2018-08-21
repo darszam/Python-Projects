@@ -16,6 +16,7 @@ web development and machine learning & deep learning
     + [TaxiTrip](#taxi-trip)
     + [DL](#deep-learning)
     + [OOP](#bank-account-manager)
+    + [Web](#django-project)
 
 ## Projects
 ### Getting Started with Python
@@ -45,3 +46,7 @@ Managing credits and debits from couple accounts in ATM style.
 There are 3 types of accounts: Checking, Saving and Business. They are all using general class Account.
 User can check balance of his account, deposit money and withdraw it
 Purpose: Using OOP Python
+
+### Poll site project
+Creating poll site using Django 2.1
+Purpose: Learning django
