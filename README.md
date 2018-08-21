@@ -16,7 +16,7 @@ web development and machine learning & deep learning
     + [TaxiTrip](#taxi-trip)
     + [DL](#deep-learning)
     + [OOP](#bank-account-manager)
-    + [Web](#django-project)
+    + [Web](#poll-site-project)
 
 ## Projects
 ### Getting Started with Python
