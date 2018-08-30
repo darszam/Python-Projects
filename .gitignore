@@ -262,3 +262,10 @@ __pycache__/
 *.pyc
 TaxiTrip/submissiontaxi.csv
 TaxiTrip/test.csv
+DL/train-labels-idx1-ubyte
+DL/train-images-idx3-ubyte
+DL/t10k-labels-idx1-ubyte
+DL/t10k-images-idx3-ubyte
+DL/fashionmnist.zip
+DL/fashion-mnist_train.csv
+DL/fashion-mnist_test.csv

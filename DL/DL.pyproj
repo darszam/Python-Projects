@@ -27,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="decode_predictions.py" />
+    <Compile Include="DigitRecognizer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="exercise_1.py" />
     <Compile Include="Helper.py">
       <SubType>Code</SubType>
