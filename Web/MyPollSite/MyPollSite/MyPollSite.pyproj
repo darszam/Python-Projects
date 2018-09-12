@@ -46,6 +46,7 @@
     <Compile Include="polls\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="polls\templates\polls\detail.html" />
     <Content Include="polls\templates\polls\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
