@@ -48,6 +48,7 @@
   <ItemGroup>
     <Content Include="polls\templates\polls\detail.html" />
     <Content Include="polls\templates\polls\index.html" />
+    <Content Include="polls\templates\polls\results.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
