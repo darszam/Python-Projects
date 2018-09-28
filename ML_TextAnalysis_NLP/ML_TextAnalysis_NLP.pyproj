@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7e61c468-943e-4727-a98e-f5f88050c00e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>FilteringWordCounts.py</StartupFile>
+    <StartupFile>Clusterization.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,6 +19,9 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Clusterization.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ExploringNewsgroupsDatasets.py">
       <SubType>Code</SubType>
     </Compile>
