@@ -10,7 +10,9 @@ class Question(models.Model):
     def __str__(self):
         return self.question_text
     def was_published_recently(self):
-        return self.publish_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now()
+        return now - datetime.timedelta(days=1) <= self.publish_date <= now
+
 class Answer(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=200)
