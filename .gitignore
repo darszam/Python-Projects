@@ -272,4 +272,5 @@ DL/fashion-mnist_test.csv
 Embedding_Course/rating.csv.zip
 Embedding_Course/movie.csv.zip
 DataAnalysis/Python Test.ipynb
-DataAnalysis/.ipynb_checkpoints/Python Test-checkpoint.ipynb
+DataAnalysis/.ipynb_checkpoints/
+
