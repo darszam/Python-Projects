@@ -1,5 +1,7 @@
 from BankAccounts.AccountHolder import AccountHolder
 from BankAccounts.Account import Account
+from BankAccounts.Timezone import Timezone
+import datetime
 
 first = AccountHolder("John", "Smith")
 print(first)
@@ -20,4 +22,17 @@ try:
     f_account.withdraw(200)
     print(f_account)
 except ValueError as e:
+    print(e)
+
+tz1 = Timezone("First", 2, 17)
+print(tz1)
+
+now = datetime.datetime.utcnow()
+print(now)
+
+print(now + tz1.offset)
+
+try:
+    tz_error = Timezone('        ', 0, 0)
+except Exception as e:
     print(e)
