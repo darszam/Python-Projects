@@ -1,8 +1,8 @@
 import datetime
 import decimal
 
-from BankAccounts.AccountHolder import AccountHolder
-from BankAccounts.Timezone import Timezone
+from BankAccounts.Models.AccountHolder import AccountHolder
+from BankAccounts.Models.Timezone import Timezone
 
 
 class Account:

@@ -1,7 +1,6 @@
-from BankAccounts.AccountHolder import AccountHolder
-from BankAccounts.Account import Account
-from BankAccounts.Timezone import Timezone
-import datetime
+from BankAccounts.Models.AccountHolder import AccountHolder
+from BankAccounts.Models.Account import Account
+from BankAccounts.Models.Timezone import Timezone
 
 first = AccountHolder("John", "Smith")
 print(first)
